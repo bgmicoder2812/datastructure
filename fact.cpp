@@ -1,13 +1,14 @@
 #include<iostream>
 using namespace std;
 
-int fact(unsigned long long num){
+
+int fact(int num){
  if(num == 1){
      return 1;
  }
  else{
-     unsigned long long ans = 1;
-     for(unsigned long long i = 1; i<=num; i++){
+     int ans = 1;
+     for(int i = 1; i<=num; i++){
          ans = ans*i;
      }
      return ans;
@@ -17,7 +18,7 @@ int fact(unsigned long long num){
 }
 
 int main(){
-    unsigned long long num;
+    int num;
     cout<<"Enter the number: ";
     cin>>num;
 
