@@ -10,5 +10,6 @@ long long fact(int f){
 }
 
 int main(){
+    cout<<"Factorial Using Recursion";
     cout<<fact(4);
 }
