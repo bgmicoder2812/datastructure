@@ -7,11 +7,11 @@ int fact(int num){
      return 1;
  }
  else{
-     int ans = 1;
+     int finalans = 1;
      for(int i = 1; i<=num; i++){
-         ans = ans*i;
+         finalans = finalans*i;
      }
-     return ans;
+     return finalans;
       
 
     }
