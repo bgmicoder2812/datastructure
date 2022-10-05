@@ -10,7 +10,7 @@ void fun1(int n){
         
     }
 }
-
+#should add comment in your codes
 int main(){
     int n = 3;
 
